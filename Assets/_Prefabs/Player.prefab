@@ -613,11 +613,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1612567410557280152}
   playerRef: {fileID: 6295072343839011313}
-  positionAmplitude: 1
-  positionFrequency: 1
-  scaleAmplitude: 0.5
-  scaleFrequency: 1.5
-  offset: 2
+  positionAmplitude: 0
+  positionFrequency: 0
+  scaleAmplitude: 0
+  scaleFrequency: 0
+  offset: 0
 --- !u!114 &7799332963455407106 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2894571579659948764, guid: c27cb69f32310d64c9874e8bf49a777e,
