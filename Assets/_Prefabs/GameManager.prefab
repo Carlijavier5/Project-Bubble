@@ -524,7 +524,7 @@ MonoBehaviour:
       sceneAsset: {fileID: 102900000, guid: c90e9f80b584ce345ad984979da18538, type: 3}
       isDirty: 0
       scenePath: Assets/Scenes/Vu/Level 3.unity
-    renderMat: {fileID: 2100000, guid: 4114996f0c0a0c245bd816fc89d9dbcc, type: 2}
+    renderMat: {fileID: 2100000, guid: 8f54a752d09b8d943a699f9d6ff3f5a1, type: 2}
   feature: {fileID: -8834546578936026662, guid: c40be3174f62c4acf8c1216858c64956,
     type: 2}
 --- !u!1 &3614557491606179609
