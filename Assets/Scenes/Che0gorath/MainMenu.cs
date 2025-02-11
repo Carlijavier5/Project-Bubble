@@ -23,10 +23,10 @@ public class MainMenu : MonoBehaviour {
                 StartCoroutine(PopRemainingButtons());
                 break;
             case MainMenuBType.Credits:
-                GM.TransitionManager.LoadLevel(RoomTag.L1);
+                ///GM.TransitionManager.LoadLevel(RoomTag.L1);
                 break;
             case MainMenuBType.End:
-                Application.Quit();
+                ///Application.Quit();
                 break;
         }
     }
@@ -35,9 +35,9 @@ public class MainMenu : MonoBehaviour {
         IEnumerable<MenuButton> activeButtons = buttons.Where((button) => !button.IsPopped);
         foreach (MenuButton button in activeButtons) {
             button.PopButton();
-            yield return new WaitForSeconds(buttonPopDelay);
+            yield return new WaitForSecondsRealtime(buttonPopDelay);
         }
-        yield return new WaitForSeconds(startTransitionDelay);
-        OnGameStart?.Invoke();
+        yield return new WaitForSecondsRealtime(startTransitionDelay);
+        GM.TransitionManager.LoadLevel(RoomTag.L1);
     }
 }
